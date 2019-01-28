@@ -11,8 +11,9 @@
     ]
   },
   "dependencies": {
+    "learn-browser": "^0.1.17",
     "mocha-multi": "^1.0.1",
-    "react": "^16.4.1",
+    "react": "^16.7.0",
     "react-dom": "^16.4.1",
     "react-scripts": "^1.1.5",
     "webpack": "^3.11.0"
@@ -20,7 +21,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "mocha -w ./test/*.test.js",
+    "test": "mocha -w ./test/*.js",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
@@ -34,5 +35,20 @@
     "enzyme-adapter-react-16": "^1.1.1",
     "mocha": "^5.2.0",
     "sinon": "^6.1.0"
-  }
+  },
+  "description": "## Objectives",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AshZaki/react-props-movie-lab-dc-web-111918.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AshZaki/react-props-movie-lab-dc-web-111918/issues"
+  },
+  "homepage": "https://github.com/AshZaki/react-props-movie-lab-dc-web-111918#readme"
 }
