@@ -3,10 +3,10 @@ import MovieCard from './card-components/MovieCard.js'
 import movieData from './data.js'
 
 export default class MovieShowcase extends Component {
-
+  debugger
   generateMovieCards = () => {
-    // map over your movieData array and return the correct 
-  }
+    return movieData.map( (data,idx) => <MovieCard key={idx} {...data} />);
+  };
 
   render() {
     return (
